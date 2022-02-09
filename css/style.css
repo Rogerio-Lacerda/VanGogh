@@ -55,19 +55,19 @@ header{
 }
 
 main{
-  height: 170vh;
+  height: 330vh;
   width: 100%;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   display: flex;
-  justify-content: space-around;
-  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .section-conteudo{
-  height: 90%;
+  height: 150vh;
   width: 87%;
-  /* border: 2px solid #000; */
+  border: 2px solid #000;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -76,23 +76,107 @@ main{
 .texto-conteudo{
   font-size: 3vw;
   font-weight: 400;
-  /* border: 2px solid yellow; */
+  border: 2px solid yellow;
   width: 65vw;
 }
 
 .frase-conteudo{
 font-weight: 400;
 font-size: 1.3vw;
-margin-top: 5vh;
+/* margin-top: 5vh; */
 }
 
 .figure-conteudo{
   height: 85vh;
   width: 60vw;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 .img-conteudo{
   height: 100%;
   width: 100%;
+}
+
+.section-conteudo2{
+  height: 170vh;
+  width: 87%;
+  border: 2px solid yellow;
+}
+
+.div-biografia {
+  height: 160vh;
+  width: 60vw;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.subtitulos-biografia {
+  font-size: 2vw;
+  height: 6.5vh;
+  width: 5vw;
+  border-bottom: 2px solid #000 ;
+}
+
+.figure-biografia{
+  width: 50vw;
+  height: 70vh;
+  border: 2px solid #000;
+}
+
+.img-biografia{
+  height: 100%;
+  width: 100%;
+}
+
+.frase-biografia{
+  font-size: 1.5vw;
+  font-weight: 300;
+}
+
+.paragrafo-bio{
+  width: 50vw;
+  font-size: 1.4vw;
+  font-weight: 400;
+}
+
+.div-moments{
+  height: 30vh;
+  width: 100%;
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-between;
+}
+
+.figure-moments{
+  height: 100%;
+  width: 25vw;
+  border: 2px solid goldenrod;
+}
+
+.img-moments{
+  height: 100%;
+  width: 100%;
+}
+
+.div-texto-moments{
+  height: 100%;
+  width: 32vw;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subtitulo-texto-moments{
+  font-size: 1.3vw;
+  height: 5vh;
+  width: 19vw;
+  border-bottom: 2px solid #000 ;
+}
+
+.paragrafo-texto-moments{
+  font-size: 1vw;
+  font-weight: 400;
 }
